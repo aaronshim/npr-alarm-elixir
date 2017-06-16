@@ -36,7 +36,7 @@ defmodule Ui.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_ui_key",
-    signing_salt: "WG9+mqYD"
+    signing_salt: "85AGf2ga"
 
   plug Ui.Router
 end

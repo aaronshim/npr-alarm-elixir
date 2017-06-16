@@ -20,6 +20,11 @@ defmodule Ui.ConnCase do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
 
+      alias Ui.Repo
+      import Ecto
+      import Ecto.Changeset
+      import Ecto.Query
+
       import Ui.Router.Helpers
 
       # The default endpoint for testing

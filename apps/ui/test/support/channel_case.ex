@@ -20,6 +20,11 @@ defmodule Ui.ChannelCase do
       # Import conveniences for testing with channels
       use Phoenix.ChannelTest
 
+      alias Ui.Repo
+      import Ecto
+      import Ecto.Changeset
+      import Ecto.Query
+
 
       # The default endpoint for testing
       @endpoint Ui.Endpoint
